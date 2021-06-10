@@ -228,7 +228,11 @@ class _MyHomePageState extends State<MyHomePage>
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: Colors.yellow,
-        child: Icon(Icons.search),
+        foregroundColor: Colors.grey,
+        child: Icon(
+          Icons.search,
+          size: 28,
+        ),
       ),
       floatingActionButtonLocation:
           FloatingActionButtonLocation.miniCenterDocked,
